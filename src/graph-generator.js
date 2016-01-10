@@ -1,6 +1,6 @@
-export default function generate() {
+export default function generate(vertexCount=10) {
     var vertices = [];
-    for(let i = 1; i <= oneToTen(); i++) {
+    for(let i = 1; i <= oneToTen(vertexCount); i++) {
         vertices.push(i);
     }
 
@@ -22,8 +22,8 @@ function getChar(i) {
     return String.fromCharCode(96 + i);
 }
 
-function oneToTen() {
-    return Math.round(Math.random() * 10) + 1;
+function oneToTen(vertexCount) {
+    return Math.round(Math.random() * vertexCount) + 1;
 }
 
 
