@@ -1,4 +1,4 @@
-export function generate() {
+export default function generate() {
     var vertices = [];
     for(let i = 1; i <= oneToTen(); i++) {
         vertices.push(i);
