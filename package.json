@@ -1,0 +1,15 @@
+{
+  "name": "graph-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/rsk7/graph-generator.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
