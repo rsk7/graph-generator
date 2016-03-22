@@ -4,8 +4,8 @@
   "description": "Generates data describing graphs",
   "main": "lib/graph-generator.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel -d lib/ src/",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-register",
+    "build": "babel -d lib/ src/",
+    "test": "mocha --compilers js:babel-register",
     "prepublish": "npm run build"
   },
   "repository": {
